@@ -1,6 +1,11 @@
+/**CSS Code for Component for SimilarArticles**/
 
 div.list-item {
     margin: 30px;
+}
+
+div.list-item a {
+    text-decoration: none;
 }
 
 div.grid-container {
@@ -56,6 +61,7 @@ div.source-font, div.date-font {
     color: #959595;
     font-weight: 500;
 }
+
 div.similarity {
     color: #41bb56;
     text-transform: lowercase;
@@ -85,79 +91,12 @@ div.article-items>.article-item:first-child {
     margin-left: 0;
     padding-left: 0;
 }
+
 div.article-items>.article-item:last-child {
     border-right:none;
 }
 
-
-
-@media (min-width: 500px){
-    .cointainer {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-     
-    div.card {
-        flex-direction: row;
-        max-width: 750px;
-    }
-
-    div.grid-item-img{
-        flex-basis: 20%;
-        height: auto;
-    }
-
-    div.grid-item-text {
-        flex-basis: 80%;
-    }
-}
-
-@media only screen and (min-width: 500px){
-    div.card {
-        flex-direction: row;
-        max-width: 700px;
-        min-height: 100px;
-    }
-
-    div.grid-item-img{
-        flex-basis: 25%;
-    }
-
-    div.article-items {
-        display: inline-block;
-        padding: 2em 0 .25em 0;
-        font-size: 0.7rem;
-        font-family: 'Roboto', sans-serif;
-        line-height: 1;
-    }
-
-    div.grid-item-text {
-        flex-basis: 75%;
-    }
-
-    div.grid-item-text h3.article-header {
-        display: block;
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        color: rgba(0,0,0,.87);
-        line-height: 1.285em;
-        font-size: 1rem;
-        width: 90%;
-    }
-
-    div.article-items>.article-item {
-        display: inline-block;
-        table-layout: fixed;
-        list-style-type: none;
-        list-style-position: outside;
-        margin-right: 6px;
-        margin-top: 4px;
-        padding-right: 6px;
-        border-right: 2px solid #959595;
-    }
-}
-
+/**Code for screen size min-width: 280px**/
 @media only screen and (min-width: 280px){
     div.card {
         flex-direction: row;
@@ -204,6 +143,57 @@ div.article-items>.article-item:last-child {
     }
 }
 
+
+/**Code for screen size min-width: 500px**/
+@media only screen and (min-width: 500px){
+    div.card {
+        flex-direction: row;
+        max-width: 700px;
+        min-height: 100px;
+    }
+
+    div.grid-item-img{
+        flex-basis: 25%;
+    }
+
+    div.article-items {
+        display: inline-block;
+        padding: 2em 0 .25em 0;
+        font-size: 0.7rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1;
+    }
+
+    div.grid-item-text {
+        flex-basis: 75%;
+    }
+
+    div.grid-item-text h3.article-header {
+        display: block;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgba(0,0,0,.87);
+        line-height: 1.285em;
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    div.article-items>.article-item {
+        display: inline-block;
+        table-layout: fixed;
+        list-style-type: none;
+        list-style-position: outside;
+        margin-right: 6px;
+        margin-top: 4px;
+        padding-right: 6px;
+        border-right: 2px solid #959595;
+    }
+}
+
+
+
+/**Code for screen size min-width: 600px**/
 @media only screen and (min-width: 600px){
     div.card {
         flex-direction: row;
@@ -250,7 +240,7 @@ div.article-items>.article-item:last-child {
     }
 }
 
-
+/**Code for screen size min-width: 768px**/
 @media only screen and (min-width: 768px){
     div.card {
         flex-direction: row;

@@ -1,3 +1,6 @@
+/** CSS code for input text Box **/
+
+/** Style for the input form **/
 form.input-form input {
     line-height: 1.2em;
     padding: 13px 24px;
@@ -10,6 +13,8 @@ form.input-form input {
     transition: color .1s ease,border-color .1s ease;
 }
 
+
+/** Style for the input form box on focus**/
 form.input-form input:focus {
     color: rgba(0,0,0,.95);
     border-color: #1d96e8;
@@ -34,6 +39,7 @@ div.form-field input {
     margin-right: 0.5em;
 }
 
+/** Style for the submit button**/
 div button.submit {
     background-color: #1d96e8;
     border: 0;
@@ -46,8 +52,11 @@ div button.submit {
     padding: 13px 24px;
     border-radius: 0.3rem;
     transition: .1s ease;
+    opacity: 0.85;
 }
 
+
+/** Style for the submit button on focus**/
 div button.submit:focus {
     outline: none;
     opacity: 1;
