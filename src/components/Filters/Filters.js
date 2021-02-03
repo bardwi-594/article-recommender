@@ -4,7 +4,7 @@ import question from "../../assets/icons/question.svg";
 import time from "../../assets/icons/time.svg";
 import "./Filters.css";
 
-
+/*** A component for Filter ***/
 const Filters = () => {
     return (
         <div className="filters">

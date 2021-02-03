@@ -1,3 +1,5 @@
+/**CSS Code for Component for Home Screen**/
+
 .header {
     text-align: center;
     margin: 20px;
@@ -7,6 +9,11 @@ p.loader-text {
     text-align: center;
 }
 
+.input-search {
+    height: 100px;
+}
+
+/**Style for the loading element**/
 p.loader {
    border: 2px solid #f3f3f3;
    border-top: 2px solid #b9c4cc;
@@ -18,13 +25,19 @@ p.loader {
    animation: spin 2s linear infinite;
 }
 
-.input-search {
-    height: 100px;
-}
-
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  p.error-message {
+      text-align: center;
+  }
+/**Style for the loading element**/
+
+
+
+
+
 
 

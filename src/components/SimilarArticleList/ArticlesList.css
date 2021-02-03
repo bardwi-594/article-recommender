@@ -1,3 +1,5 @@
+/**CSS code for the Article List Component**/
+
 div.list-container {
     max-width: 900px;
     margin: 0px auto;
@@ -13,6 +15,7 @@ div.heading {
 }
 
 
+/**Code for screen size min-width: 280px**/
 @media only screen and (min-width: 280px){
     div.heading {
         margin: 30px;
@@ -28,7 +31,7 @@ div.heading {
     }
 }
 
-
+/**Code for screen size min-width: 500px**/
 @media only screen and (min-width: 500px){
     div.heading {
         margin: 30px;
@@ -45,7 +48,7 @@ div.heading {
  
 }
 
-
+/**Code for screen size min-width: 600px**/
 @media only screen and (min-width: 600px){
     div.heading {
         margin: 30px;
@@ -61,7 +64,7 @@ div.heading {
     }
 }
 
-
+/**Code for screen size min-width: 768px**/
 @media only screen and (min-width: 768px){
     div.heading {
         margin: 1rem auto;
