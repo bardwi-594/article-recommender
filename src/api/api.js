@@ -12,9 +12,7 @@ const getsimilararticle = async (urlInput) => {
     /***We use the json() method to extract the JSON body content from the response***/
     data = json.body;
     /**Storing the json body content in variable 'data' **/
-    /**requestOptions variable to hold the method, headers and the returned data passed as a body to the POST API call*/
-    /**Now, returning a new fetch() call to https://news-api.lateral.io/documents/similar-to-text endpoint, 
-     using the text data passed to the body*/
+
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'subscription-key': 'f53dd4aea5bfc8ecd850fcbe1b08921e' },
@@ -22,6 +20,9 @@ const getsimilararticle = async (urlInput) => {
             text: `${data}`
         })
     };
+    /**requestOptions variable to hold the method, headers and the returned data passed as a body to the POST API call*/
+    /**Now, returning a new fetch() call to https://news-api.lateral.io/documents/similar-to-text endpoint, 
+     using the text data passed to the body*/
     return fetch('https://news-api.lateral.io/documents/similar-to-text', requestOptions)
         .then(response => response.json())
         .then((responseData) => {

@@ -12,7 +12,7 @@ const Filters = () => {
             <div className="filter-container mysources" >
                 <img src={articleicon} alt="article" />
                 <div className="filter-sources">
-                    <select name="mysources">
+                    <select name="mysources"> {/*** My Sources Filter ***/}
                         <option value="" disabled selected hidden>MY SOURCES</option>
                     </select>
                 </div>
@@ -20,18 +20,15 @@ const Filters = () => {
             <div className="filter-container">
                 <img src={time} alt="time" />
                 <div className="filter-month">
-
-                    <select name="past-month">
+                    <select name="past-month">  {/*** Past Month Date Filter ***/}
                         <option value="" disabled selected hidden>PAST MONTH</option>
                     </select>
                 </div>
-
             </div>
             <div className="help-icon">
                 <img src={question} alt="help" />
             </div>
-
-        </div >
+        </div>
     )
 }
 

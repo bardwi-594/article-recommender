@@ -70,10 +70,11 @@ div.similarity {
 
 div.article-items {
     display: inline-block;
-    padding: 2em 0 .25em 0;
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1;
+    position: absolute;
+    bottom: 14%;
 }
 
 div.article-items>.article-item {
@@ -110,14 +111,16 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        padding: 2em 0 .25em 0;
         font-size: 0.6rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
+        position: absolute;
+        bottom: 16%;
     }
 
     div.grid-item-text {
         flex-basis: 75%;
+        padding: 17px;
     }
 
     div.grid-item-text h3.article-header {
@@ -158,14 +161,16 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        padding: 2em 0 .25em 0;
         font-size: 0.7rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
+        position: absolute;
+        bottom: 14%;
     }
 
     div.grid-item-text {
         flex-basis: 75%;
+        padding: 18px;
     }
 
     div.grid-item-text h3.article-header {
@@ -175,7 +180,7 @@ div.article-items>.article-item:last-child {
         font-weight: 500;
         color: rgba(0,0,0,.87);
         line-height: 1.285em;
-        font-size: 1rem;
+        font-size: 0.9rem;
         width: 90%;
     }
 
@@ -207,14 +212,16 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        padding: 2em 0 .25em 0;
         font-size: 0.8rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
+        position: absolute;
+        bottom: 14%;
     }
 
     div.grid-item-text {
         flex-basis: 75%;
+        padding: 19px;
     }
 
     div.grid-item-text h3.article-header {
@@ -224,7 +231,7 @@ div.article-items>.article-item:last-child {
         font-weight: 500;
         color: rgba(0,0,0,.87);
         line-height: 1.285em;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 90%;
     }
 
@@ -254,14 +261,16 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        padding: 2em 0 .25em 0;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
+        position: absolute;
+        bottom: 14%;
     }
 
     div.grid-item-text {
         flex-basis: 75%;
+        padding: 20px;
     }
 
     div.grid-item-text h3.article-header {
@@ -271,7 +280,7 @@ div.article-items>.article-item:last-child {
         font-weight: 500;
         color: rgba(0,0,0,.87);
         line-height: 1.285em;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         width: 90%;
     }
 

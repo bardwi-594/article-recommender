@@ -1,4 +1,5 @@
+/**Piece of code to convert decimal toFixed(2) **/
 export default function formatPercent(num) {
-    const number = Number(num.toFixed(2) * 100);
+    const number = Number(parseFloat(num).toFixed(2));
     return number
 }

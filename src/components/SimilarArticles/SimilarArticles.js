@@ -22,11 +22,11 @@ const SimilarArticles = (props) => {
                         <div className="article-items">
                             <div className="article-item similarity">
                                 {/** Similarity percent **/}
-                                {formatPercent(article.similarity)}% <span>Similar</span>
+                                {formatPercent(article.similarity) * 100}% <span>Similar</span>
                             </div>
                             <div className="article-item date-font">
                                 {/** Published date **/}
-                                {moment(article.published).format('DD.MMM.YY')}
+                                {moment(article.published).format("DD.MMM.YY")}
                             </div>
                             <div className="article-item source-font">
                                 {/** Source name **/}

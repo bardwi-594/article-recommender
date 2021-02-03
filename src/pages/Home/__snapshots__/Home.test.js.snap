@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home Component Similar articles list 1`] = `ShallowWrapper {}`;
+exports[`Home Component pass mock data through similar articles prop 1`] = `ShallowWrapper {}`;
+
+exports[`Home Component returns the default empty array when no data 1`] = `ShallowWrapper {}`;
