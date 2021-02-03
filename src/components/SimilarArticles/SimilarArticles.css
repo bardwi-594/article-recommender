@@ -102,7 +102,7 @@ div.article-items>.article-item:last-child {
     div.card {
         flex-direction: row;
         max-width: 700px;
-        min-height: 120px;
+        min-height: 130px;
     }
 
     div.grid-item-img{
@@ -152,7 +152,7 @@ div.article-items>.article-item:last-child {
     div.card {
         flex-direction: row;
         max-width: 700px;
-        min-height: 100px;
+        min-height: 150px;
     }
 
     div.grid-item-img{
@@ -161,7 +161,7 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
         position: absolute;
@@ -180,7 +180,7 @@ div.article-items>.article-item:last-child {
         font-weight: 500;
         color: rgba(0,0,0,.87);
         line-height: 1.285em;
-        font-size: 0.9rem;
+        font-size: 1rem;
         width: 90%;
     }
 
@@ -203,7 +203,7 @@ div.article-items>.article-item:last-child {
     div.card {
         flex-direction: row;
         max-width: 700px;
-        min-height: 100px;
+        min-height: 160px;
     }
 
     div.grid-item-img{
@@ -212,7 +212,7 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
         position: absolute;
@@ -231,7 +231,7 @@ div.article-items>.article-item:last-child {
         font-weight: 500;
         color: rgba(0,0,0,.87);
         line-height: 1.285em;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         width: 90%;
     }
 
@@ -252,7 +252,7 @@ div.article-items>.article-item:last-child {
     div.card {
         flex-direction: row;
         max-width: 700px;
-        min-height: 100px;
+        min-height: 200px;
     }
 
     div.grid-item-img{
@@ -261,7 +261,7 @@ div.article-items>.article-item:last-child {
 
     div.article-items {
         display: inline-block;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1;
         position: absolute;
@@ -270,7 +270,7 @@ div.article-items>.article-item:last-child {
 
     div.grid-item-text {
         flex-basis: 75%;
-        padding: 20px;
+        padding: 24px;
     }
 
     div.grid-item-text h3.article-header {
@@ -279,7 +279,7 @@ div.article-items>.article-item:last-child {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         color: rgba(0,0,0,.87);
-        line-height: 1.285em;
+        line-height: 1.5em;
         font-size: 1.4rem;
         width: 90%;
     }
