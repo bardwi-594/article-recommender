@@ -11,7 +11,7 @@ configure({ adapter: new Adapter() });
 describe('Testing App Component', () => {
   it('renders the App component', () => {
     const component = shallow(
-      <App >
+      <App>
         <Routes />
       </App>);
     expect(component.find(".App")).toHaveLength(1);

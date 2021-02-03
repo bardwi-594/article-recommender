@@ -8,11 +8,10 @@ import "./Home.css";
 class Home extends Component {
     state = {
         similararticles: [], /** to store an array of articles**/
-        error: "", /** variable to handle any errors we receive from the API**/
-        input: "", /** variable to hold the urlInput**/
-        loading: false, /** Setting the initial value for loader to false by default **/
+        error: "",           /** variable to handle any errors we receive from the API**/
+        input: "",           /** variable to hold the urlInput**/
+        loading: false,      /** Setting the initial value for loader to false by default **/
     }
-
     /** inputTextBox is the method to handle the state **/
     inputTextBox = async (urlInput) => {
         try {

@@ -3,13 +3,17 @@ import Adapter from 'enzyme-adapter-react-16';
 import { shallow, render, mount, configure } from 'enzyme';
 import SimilarArticles from "./SimilarArticles";
 import moment from 'moment';
-import formatPercent from "../../utils/utils";
+import formatDecimal from "../../utils/utils";
 
 /**Test case for Similar Articles Component**/
 
 configure({ adapter: new Adapter() });
+
+
 describe('Test for Similar Articles', () => {
+
     it('renders SimilarArticles component', () => {
+        /** Mock data**/
         const article = {
             url: "https://www.axios.com",
             similarity: "0.84",
@@ -24,10 +28,9 @@ describe('Test for Similar Articles', () => {
 
 });
 
-;
+/** test for momentjs **/
 const published = () => {
     const publishedtime = moment();
-    console.log(moment())
     return publishedtime;
 };
 
@@ -36,9 +39,9 @@ describe('Format', () => {
         const wrapper = published().format("DD.MMM.YY");
         expect(wrapper).toEqual("03.Feb.21");
     });
-
-    it('formats a number', () => {
-        const similarity = formatPercent(0.8414);
-        expect(similarity).toEqual(84);
+    /** test for formatting decimal **/
+    it('format number', () => {
+        const similarity = formatDecimal(0.8414);
+        expect(similarity).toEqual(.84);
     })
 });
